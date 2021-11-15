@@ -6183,6 +6183,22 @@ a {
   display: flex;
 }
 
+@media (min-width: 375px) and (max-width: 426px) {
+  .flati {
+    display: none;
+  }
+  .menu {
+    margin-left: 0;
+    font-size: 12px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-left: 7px;
+    margin-right: 15px;
+  }
+}
+
 main {
   background-color: #efeff1;
 }
@@ -6298,6 +6314,33 @@ h5 {
   color: #26a2cc;
 }
 
+@media (min-width: 375px) and (max-width: 426px) {
+  .txt-fb {
+    font-size: 20px;
+    margin-left: 2%;
+  }
+  .cartes {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .carte1, .carte2, .carte3, .carte4 {
+    margin: 9px;
+  }
+  .para-work {
+    display: none;
+  }
+  .cartes2 {
+    margin: 0;
+  }
+  .catalogue, .loupe, .retro {
+    width: 30vw;
+    height: 232px;
+  }
+  .catalogue img, .loupe img, .retro img {
+    width: 100%;
+  }
+}
+
 .fond-bleu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6327,6 +6370,12 @@ h5 {
   color: white;
   height: 45px;
   text-align: center;
+}
+
+@media (min-width: 375px) and (max-width: 426px) {
+  .fond-bleu {
+    height: 270px;
+  }
 }
 
 * {
