@@ -6139,4 +6139,49 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
 }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  background-color: #363b47;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 35%;
+  width: 41%;
+}
+
+.flati {
+  color: White;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.imagehead {
+  width: 100%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
 /*# sourceMappingURL=app.css.map */
