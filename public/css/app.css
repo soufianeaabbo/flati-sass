@@ -6242,21 +6242,39 @@ h5 {
 }
 
 .catalogue {
+  text-align: center;
+  color: white;
   background-color: #38485f;
   width: 99%;
   height: 280px;
+}
+
+.catalogue h3 {
+  margin-bottom: 5px;
 }
 
 .loupe {
+  text-align: center;
+  color: white;
   background-color: #38485f;
   width: 99%;
   height: 280px;
 }
 
+.loupe h3 {
+  margin-bottom: 5px;
+}
+
 .retro {
+  text-align: center;
+  color: white;
   background-color: #38485f;
   width: 99%;
   height: 280px;
+}
+
+.retro h3 {
+  margin-bottom: 5px;
 }
 
 .cartes2 {
@@ -6270,6 +6288,45 @@ h5 {
   width: 690%;
   margin-left: 100%;
   margin-top: 20%;
+}
+
+.program {
+  background-color: #26a2cc;
+}
+
+.complex {
+  color: #26a2cc;
+}
+
+.fond-bleu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #5e91c9;
+  background-color: #3676bb;
+  text-align: center;
+  height: 250px;
+}
+
+.touch {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.social {
+  font-size: 30px;
+}
+
+.fond-noir {
+  background-color: #363b47;
+  color: white;
+  height: 45px;
+  text-align: center;
 }
 
 * {
